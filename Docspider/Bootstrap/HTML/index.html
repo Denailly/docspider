@@ -22,9 +22,10 @@
                 <a href="#" class="navbar-brand">
                     <img src="../PICTURES/logo_nav.svg" id="logo" alt="Logo Docspider">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>                
+                </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link" id="cadastro-menu">Cadastro</a>
@@ -44,17 +45,22 @@
     </main>
     <div class="container" id="content-docspider">
         <h1>Efetue o cadastro do documento</h1>
-            <div class="main-content" id="registration-tab">
-                <form id="form-cadastro" class="form">
-                <input class="form-control" type="text" placeholder=".form-control-lg">
+        <div class="main-content form-group">
+            <div id="form-cadastro" class="form">
+                <label class="form-label" for="titulo-file">TÍTULO DO DOCUMENTO</label>
+                <input class="form-control" type="text" id="titulo-file">
+            </div>
+            <div>
                 <label class="form-label" for="customFile">UPLOAD DE DOCUMENTO</label>
-                <input type="file" class="form-control" id="customFile" />
+                <input type="file" class="form-control" id="upload-file" />
                 <br>
                 <button class="btn btn-dark" type="submit">ENVIAR DOCUMENTO</button>
-                </form>
-            </div>        
+            </div>
+            </form>
+        </div>
     </div>
-<!-- SCRIPT -->
-<script src="../JS/script.js"></script>
+    <!-- SCRIPT -->
+    <script src="../JS/script.js"></script>
 </body>
+
 </html>
