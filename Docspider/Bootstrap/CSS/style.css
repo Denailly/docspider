@@ -1,0 +1,115 @@
+/* Gerais */
+html {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+
+body {
+  font: "Roboto", "sans-serif";
+  background: linear-gradient(
+    90deg,
+    rgba(61, 15, 15, 1) 0%,
+    rgba(0, 0, 83, 1) 50%,
+    rgb(12, 12, 12) 100%
+  );
+}
+
+/* SCROOLLBAR */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(68, 68, 68);
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#e3222d, rgb(83, 117, 211));
+  border-radius: 8px;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p,
+li,
+h2 {
+  color: rgb(32, 32, 32);
+  font-size: 16px;
+}
+
+/* Barra Navegação */
+
+header,
+.navbar {
+  background-image: linear-gradient(#1a1a1a, #020202);
+  box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.45);
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+
+#logo {
+  width: 175px;
+  padding-left: 40px;
+}
+
+.navbar-brand {
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+#navbarNav a {
+  color: rgb(255, 255, 255);
+  position: relative;
+  transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+}
+#navbarNav a ::after {
+  content: "";
+  color: rgb(255, 255, 255);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  z-index: -1;
+}
+
+#navbarNav a:hover {
+  color: rgb(255, 255, 255);
+  transform: scale(1.25, 1.25);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem 0.8rem;
+}
+
+/* BANNER */
+.banner-border {
+  border-radius: 20px;
+}
+/* CONTEUDO PRINCIPAL */
+.main-content {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px 15px;
+}
+
+#content-docspider h1 {
+  color: #f6f6f6;
+  text-align: center;
+}
+#content-docspider h1::after {
+  content: "";
+  width: 250px;
+  height: 4px;
+  background-color: #e3222d;
+  display: block;
+  margin: 10px auto;
+}
+
+/* CADASTRO */
+
