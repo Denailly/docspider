@@ -90,6 +90,21 @@ header,
 .banner-border {
   border-radius: 20px;
 }
+
+/* APRESENTAÇÃO */
+.presentation{
+  padding: 0px 370px;
+}
+.presentation p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.presentation li{
+  font-size: 16px;
+  font-weight: 500;
+}
+
 /* CONTEUDO PRINCIPAL */
 .main-content {
   background-color: #ffffff;
