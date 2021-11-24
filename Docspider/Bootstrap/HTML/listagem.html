@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docspider Listagem</title>
+    <!-- BOOTSTRAP CONNECTION -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- AWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/07b628af06.js" crossorigin="anonymous"></script>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="navbar-brand">
+                    <img src="../PICTURES/logo_nav.svg" id="logo" alt="Logo Docspider">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a href="index.html" class="nav-item nav-link" id="cadastro-menu">Cadastro</a>
+                        <a href="listagem.html" class="nav-item nav-link" id="listar-menu">Listagem</a>
+                        <a href="visualizar.html" class="nav-item nav-link" id="visualizar-menu">Visualizar</a>
+                        <a href="editar.html" class="nav-item nav-link" id="editar-menu">Editar</a>
+                        <a href="excluir.html" class="nav-item nav-link" id="excluir-menu">Excluir</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container content-docspider">
+        <h1>Listagem de documentos</h1>
+        <div class="main-content">
+            <!--  
+            <div class="form-group form-item">
+            fsdf
+            sdf
+            sf
+            dsf
+            sdf
+            sda
+            fas
+            df
+            sdaf
+            sda
+            f
+            sa
+            f
+            s
+            
+            </div>
+        -->
+            <div class="list-table">
+                <table class="table">
+                    <thead class="thead">
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Data</th>
+                            <th scope="col">Download</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>DOCUMENTO 1</td>
+                            <td>23/11/2021 20:44</td>
+                            <td><a href="../PICTURES/logo_nav.png" download><button class="btn-download"><i
+                                            class="fa fa-download"></i> Download
+                                    </button></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>DOCUMENTO 2</td>
+                            <td>17/03/2015</td>
+                            <td><a href="../PICTURES/logo_nav.png" download><button class="btn-download"><i
+                                            class="fa fa-download"></i> Download
+                                    </button></a></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>DOCUMENTO 3</td>
+                            <td>20/12/2003</td>
+                            <td><a href="../PICTURES/logo_nav.png" download><button class="btn-download"><i
+                                            class="fa fa-download"></i> Download
+                                    </button></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+</body>
+
+</html>

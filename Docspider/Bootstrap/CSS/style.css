@@ -132,11 +132,11 @@ header,
 
 /* VISUALIZAÇÃO/DOWNLOAD */
 .btn-download{
-  background-color: rgb(83, 117, 211);
+  background-color: rgb(58, 111, 255);
   border: none;
   color: #ffffff;
   padding: 12px 30px;
 }
 .btn-download:hover{
-  background-color:rgb(66, 101, 196)
+  background-color: rgb(49, 93, 216)
 }
